@@ -20,6 +20,11 @@ img.center {
     padding: 5px;
 }
 
+p, li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .darken {
     color: gray;
 }
@@ -47,11 +52,6 @@ h2.subtitle {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     animation: blinker 1s linear infinite;
-}
-
-p {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 @keyframes blinker {
