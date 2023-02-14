@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.darken {
+    color: gray;
+}
+
+h1.title {
+    color: red;
+    background-color: black;
+    text-align: center;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 100px;
+}
+
+hr.line {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: white;
+    margin-bottom: 50px;
+    animation: blinker 1s linear infinite;
+}
+
+h2.subtitle {
+    color: red;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    animation: blinker 1s linear infinite;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@keyframes blinker {
+    25% {
+        opacity: 100;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+        opacity: 100;
+    }
+  }
