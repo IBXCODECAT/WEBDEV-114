@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+body
+{
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+h1.title-text {
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    font-size: 5em;
+    background-image: linear-gradient(to left, indigo, blue, green, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 50px black
+}
