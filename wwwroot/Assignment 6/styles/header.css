@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+:root 
+{
+    --foreground-color: rgb(245, 245, 245);
+    --background-color: rgba(50, 50, 50);
+}
+
+body
+{   
+    height: 100%;
+    background-image: linear-gradient(to bottom, var(--background-color), rgba(0, 0, 0, 0.5));;
+}
+
+h1.header
+{
+    color: var(--foreground-color);
+    font-family: 'IBX Plex Mono';
+    text-align: left;
+    font-size: 50px;
+
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+}
