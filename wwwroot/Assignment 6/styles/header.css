@@ -4,6 +4,11 @@
 {
     --foreground-color: rgb(245, 245, 245);
     --background-color: rgba(50, 50, 50);
+
+    --main-color: rgb(0, 0, 255);
+
+    --main-themantic-color: #6765ff;
+    --secondary-themantic-color: #8ec5fc;
 }
 
 body
@@ -14,8 +19,8 @@ body
 
 h1.header
 {
-    color: var(--foreground-color);
-    font-family: 'IBX Plex Mono';
+    color: var(--main-color);
+    font-family: 'IBM Plex Mono';
     text-align: left;
     font-size: 50px;
 

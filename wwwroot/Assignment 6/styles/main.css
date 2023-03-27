@@ -41,3 +41,37 @@ div.nav
     float: left;
     background-color: var(--transparent-overlay-color);
 }
+
+h1.heading
+{
+    color: var(--compony-color);
+    font-family: 'IBM Plex Mono', 'Segoe UI', Tahoma, Verdana, Arial, Helvetica, sans-serif sans-serif;
+    text-align: center;
+    font-size: 45px;
+
+    background-image: none;
+    background-color: transparent;
+}
+
+h2.secondary-heading
+{
+    color: var(--foreground-color);
+    font-family: 'IBM Plex Mono', 'Segoe UI', Tahoma, Verdana, Arial, Helvetica, sans-serif sans-serif;
+    text-align: center;
+
+    font-size: 15px;
+}
+
+div.content
+{
+    color: var(--foreground-color);
+    font-family: 'Segoe UI', Tahoma, Verdana, Arial, Helvetica, sans-serif sans-serif;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+a
+{
+    color: var(--foreground-color);
+}
