@@ -9,7 +9,7 @@
 }
 
 /*For embedded content*/
-iframe[seamless] {
+iframe {
     border: none;
     overflow: hidden;
     height: auto;
