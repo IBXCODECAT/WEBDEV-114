@@ -7,7 +7,7 @@
 
     --transparent-overlay-color: rgba(0, 0, 0, 0.2);
 
-    --gradient: linear-gradient(120deg, var(--main-themantic-color), var(--secondary-themantic-color))
+    --gradient: linear-gradient(120deg, var(--main-themantic-color), var(--secondary-themantic-color));
 }
 
 /* type selectors */
@@ -27,7 +27,7 @@ body
     
     color: var(--foreground-color);
     font-family: 'Segoe UI', Tahoma, Verdana, Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(120deg, var(--main-themantic-color), var(--secondary-themantic-color));
+    background-image: var(--gradient);
 
     margin: 0 auto;
     width: 960px;
@@ -42,10 +42,14 @@ label {
     width: 11em;
     text-align: right;
 }
+
 input, select, textarea {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: .5em;
+    display: inline flex;
+    /*
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    */
 }
 #buttons input {
 	width: 7em;
@@ -56,13 +60,14 @@ fieldset {
     padding-top: .5em;
 }
 legend {
-    color: blue;
+    color: var(--foreground-color);
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
+    text-align: center;
 }
 h2 {
-	color:#00CC00;
+	color:#009900;
 }
 
 input:required:invalid {
