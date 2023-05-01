@@ -32,27 +32,52 @@ body
     margin: 0 auto;
     width: 960px;
     padding: 10px 20px;
+
+    text-align: center;
 }
 
 section {
     padding: 0 2em 1em;
 }
 label {
-	float: left;
+    position: relative;
+	float: center;
     width: 11em;
-    text-align: right;
+    text-align: center;
 }
 
 input, select, textarea {
-    display: inline flex;
-    /*
+    display: flex;
+    position: relative;
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    */
+    text-align: center;
+
+    background-color: darkgray;
+
+    
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    
+
+    padding-left: 15px;
+    padding-right: 25px;
+    
 }
+
+#message input {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    align-items: left;
+}
+
 #buttons input {
-	width: 7em;
+	display: inline;
+    width: 7em;
+    margin: auto;
+
 }
 fieldset {
     margin-top: 1em;
