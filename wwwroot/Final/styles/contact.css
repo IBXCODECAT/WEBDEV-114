@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
 :root 
 {
     --foreground-color: rgb(245, 245, 245);
-    --background-color: rgb(50, 50, 50);
+    --background-color: rgba(50, 50, 50);
+
+    --main-color: rgb(0, 0, 255);
+
     --main-themantic-color: #6765ff;
+    --main-themantic-color-dim: #121099;
     --secondary-themantic-color: #8ec5fc;
-
-    --transparent-overlay-color: rgba(0, 0, 0, 0.2);
-
-    --gradient: linear-gradient(120deg, var(--main-themantic-color), var(--secondary-themantic-color));
+    --secondary-themantic-color-dim: #387097;
 }
 
 /* type selectors */
