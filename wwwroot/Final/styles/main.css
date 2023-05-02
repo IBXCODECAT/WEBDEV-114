@@ -6,6 +6,8 @@
     --secondary-themantic-color: #8ec5fc;
 
     --transparent-overlay-color: rgba(0, 0, 0, 0.2);
+
+    --gradient: linear-gradient(120deg, var(--main-themantic-color), var(--secondary-themantic-color));
 }
 
 /*For embedded content*/
@@ -97,4 +99,8 @@ img.img_content
     margin-right: auto;
     width: 20%;
     height: 20%;
+}
+
+li, ul, ol {
+    list-style: none;
 }
